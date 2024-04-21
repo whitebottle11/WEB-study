@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.w-30 {
+  width: 30px;
+}
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-600 {
+  width: 600px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.div-img-100 {
+  width: 100%;
+  height: 100%
+}
+
+.object-fit-fill {
+  object-fit: fill;
+}
+
+.bg-color-blue {
+  background-color: blue;
+}
+
+.bg-color-white-blue {
+  background-color: rgb(114, 180, 255);
+}
+
+.bg-color-gray {
+  background-color: gray;
+}
+
+.bg-color-white {
+  background-color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-blue {
+  color: rgb(24, 58, 207);
+}
+
+.color-light-gray {
+  color: rgba(73, 71, 71, 0.726);
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.font-larger {
+  font-size: larger;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my-20 {
+  margin: 20px 0px;
+}
+
+.mx-5 {
+  margin: 0 5px;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-top-black-1 {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+}
+
+.border-s-g-1 {
+  border: solid rgb(160, 158, 158) 1px;
+}
