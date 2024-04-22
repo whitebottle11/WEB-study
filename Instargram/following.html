@@ -9,18 +9,20 @@
 <body>
   <div class="container">
     <nav class="sidebar w-350 font-size-20 font-bold ml-10"> <!-- 사이드바 -->
-      <ul class="padding-left-5 text-align-left margin-left-0">
-        <li class="margin-top-30 flex-align-center"><img src="image/logo.png" alt="인스타그램 로고 이미지" class="width-150 height-80"></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/home.png" alt="홈" class="width-20 height-20 margin-right-10"><span>홈</span></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/search.png" alt="검색" class="width-20 height-20 margin-right-10"><span>검색</span></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/tab.png" alt="탐색 탭" class="width-20 height-20 margin-right-10"><span>탐색 탭</span></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/video.png" alt="릴스" class="width-20 height-20 margin-right-10"><span>릴스</span></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/messeage.png" alt="메시지" class="width-20 height-20 margin-right-10"><span>메시지</span></li>
-        <li class="margin-top-30 flex-align-center"><img src="image/favorite.png" alt="알림" class="width-20 height-20 margin-right-10"><span>알림</span></li> 
-        <li class="margin-top-30 flex-align-center"><img src="image/make.png" alt="만들기" class="width-20 height-20 margin-right-10"><span>만들기</span></li> 
-        <li class="margin-top-30 flex-align-center"><img src="image/profile.jpg" alt="프로필" width="20px" height="20px" class="border-radius-50 margin-right-10"><span>프로필</span></li> 
-        <li class="flex-align-center mt-300"><img src="image/menu.png" alt="더보기" class="width-20 height-20 margin-right-10"><span>더보기</span></li> 
-      </ul>
+      <div class="padding-left-5 text-align-left margin-left-0">
+        <div class="margin-top-30 flex flex-align-center"><img src="image/logo.png" alt="인스타그램 로고 이미지" class="width-150 height-80"></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/home.png" alt="홈" class="width-20 height-20 margin-right-10"><span>홈</span></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/search.png" alt="검색" class="width-20 height-20 margin-right-10"><span>검색</span></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/tab.png" alt="탐색 탭" class="width-20 height-20 margin-right-10"><span>탐색 탭</span></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/video.png" alt="릴스" class="width-20 height-20 margin-right-10"><span>릴스</span></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/messeage.png" alt="메시지" class="width-20 height-20 margin-right-10"><span>메시지</span></div>
+        <div class="margin-top-30 flex flex-align-center"><img src="image/favorite.png" alt="알림" class="width-20 height-20 margin-right-10"><span>알림</span></div> 
+        <div class="margin-top-30 flex flex-align-center"><img src="image/make.png" alt="만들기" class="width-20 height-20 margin-right-10"><span>만들기</span></div> 
+        <a href="following.html" class="text-deco-none">
+          <div class="margin-top-30 flex flex-align-center"><img src="image/profile.jpg" alt="프로필" width="20px" height="20px" class="border-radius-50 margin-right-10"><span>프로필</span></div>
+        </a>
+        <div class="mt-300 flex flex-align-center"><img src="image/menu.png" alt="더보기" class="width-20 height-20 margin-right-10"><span>더보기</span></div>
+      </div>
     </nav>
 
     <div class="main ml-250"> <!--메인-->
@@ -28,7 +30,7 @@
         <div class="my-20"> <!-- 몸통1 -->
           <div class="flex flex-align-center">
             <div class="width-300 height-300 flex-justify-align-center" style="aspect-ratio: 1/1;">
-              <div class="border-radius-50 width-150 height-150" style="overflow: hidden;">
+              <div class="border-radius-50 width-200 height-200" style="overflow: hidden;">
                 <img src="image/profile.jpg" alt="프로필 사진" style="max-width: 100%;">
               </div>
             </div>
@@ -65,9 +67,9 @@
 
         <div> <!-- 몸통2 -->
           <div class="flex flex-justify-center mt-0">
-            <button class="bg-color-white border-none border-top-black-1 mx-10">게시물</button>
-            <button class="bg-color-white border-none border-top-black-1 mx-10">릴스</button>
-            <button class="bg-color-white border-none border-top-black-1 mx-10">태그됨</button>
+            <div class="flex flex-align-center bg-color-white border-none border-top-black-1 mx-10 font-bold"><img src="image/grid.png" alt="게시물"><p>게시물</p></div>
+            <div class="flex flex-align-center bg-color-white border-none mx-10 font-bold"><img src="image/video.png" alt="릴스"><p>릴스</p></div>
+            <div class="flex flex-align-center bg-color-white border-none mx-10 font-bold"><img src="image/person.png" alt="태그됨"><p>태그됨</p></div>
           </div>
           
           <div class="flex flex-justify-center my-5">

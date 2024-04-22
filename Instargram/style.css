@@ -304,3 +304,11 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+.text-deco-none {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
