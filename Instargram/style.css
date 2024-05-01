@@ -56,6 +56,10 @@ html, body {
   height: 30px;
 }
 
+.h-100 {
+  height: 100px;
+}
+
 .h-300 {
   height: 300px;
 }
@@ -145,7 +149,9 @@ html, body {
   margin-left: 0;
 }
 
-
+.ml-auto {
+  margin-left: auto;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -312,3 +318,26 @@ li {
 a:visited {
   color: black;
 }
+
+.friends-profile {
+  background-image: url(image/profile6.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.profile {
+  background-image: url(image/profile.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.feed {
+  width: 100%;
+  height: 600px;
+  background-image: url(image/jdragon.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
